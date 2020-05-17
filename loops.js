@@ -1,4 +1,4 @@
-const array = "I am ${i} strange loops."
+const array = `"I am ${i} strange loops."`
 
 function forLoop(array) {
   for (let i = 0; i < 25; i++){
