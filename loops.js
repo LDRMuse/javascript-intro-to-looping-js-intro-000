@@ -1,13 +1,4 @@
 
-/*function forLoop(array) {
-  for (let i = 0; i < 25; i++){
-    if (i === 1) {
-    array.push("I am 1 strange loop.")
-  } else {
-  array.push(`I am ${i} strange loops.`)
-}}
-retun array;
-}*/
 function forLoop(array) {
    for ( let i = 0; i < 25; i++) {
      if (i === 1) {
@@ -17,4 +8,9 @@ function forLoop(array) {
      }
   }
   return array;
+}
+
+function whileLoop(num) {
+  console.log(--num)
+  return 'done'
 }
